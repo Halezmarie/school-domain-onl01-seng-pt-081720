@@ -10,7 +10,8 @@
 # Hint:** If the roster hash starts off as being empty, how will you add key/value pairs to it, where the value is an array? 
 
 # 4 A method, `grade`, should take in an argument of a grade and return all of the students in that grade:
-
+# 5 You should be able to get a sorted list of all the students where the strings in the student arrays are sorted alphabetically. 
+# 6 
 
 
 class School
