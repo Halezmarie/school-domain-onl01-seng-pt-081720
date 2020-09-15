@@ -7,7 +7,10 @@
 # # => {}
 
 # 3 You should be able to add a student to the school by calling the `add_student` method and giving it an argument of the student's name and their grade.
-# 4
+# Hint:** If the roster hash starts off as being empty, how will you add key/value pairs to it, where the value is an array? 
+
+# 4 
+
 
 
 class School
