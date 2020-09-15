@@ -1,12 +1,12 @@
 # school = School.new("Bayside High School")
-#Create a class, School, in the `lib` directory that can be initialized with a name. The School class would be referred to as a "model" in the domain model context. 
+# 1 Create a class, School, in the `lib` directory that can be initialized with a name. The School class would be referred to as a "model" in the domain model context. 
 
-# A school should have a roster. The roster should be an empty hash upon initialization but will be built out to contain keys of grade levels. The value of each key will be an array of student names. 
-
+# 2 A school should have a roster. The roster should be an empty hash upon initialization but will be built out to contain keys of grade levels. The value of each key will be an array of student names. 
 # ```ruby
 # school.roster
 # # => {}
-# ```
+
+# 3
 
 
 class School
