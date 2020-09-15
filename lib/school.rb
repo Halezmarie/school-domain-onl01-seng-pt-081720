@@ -6,7 +6,8 @@
 # school.roster
 # # => {}
 
-# 3 
+# 3 You should be able to add a student to the school by calling the `add_student` method and giving it an argument of the student's name and their grade.
+# 4
 
 
 class School
