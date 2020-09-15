@@ -23,6 +23,11 @@ class School
   def roster
     @roster
   end
+  
+    def sort
+    @roster.each do |key, value|
+      value.sort!
+    end
 
   def add_student(name, grade) #able to add student 
     @roster[grade] ||= []
@@ -32,10 +37,5 @@ class School
   def grade(grade)
     @roster[grade] #send and retrieve 
   end
-
-  def sort
-    @roster.each do |key, value|
-      value.sort!
-    end
   end
 end
