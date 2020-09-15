@@ -1,4 +1,8 @@
 # school = School.new("Bayside High School")
+#Create a class, School, in the `lib` directory that can be initialized with a name. The School class would be referred to as a "model" in the domain model context. 
+
+# 
+
 
 class School
   def initialize(name)
