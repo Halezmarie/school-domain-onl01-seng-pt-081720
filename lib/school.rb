@@ -11,7 +11,7 @@
 
 # 4 A method, `grade`, should take in an argument of a grade and return all of the students in that grade:
 # 5 You should be able to get a sorted list of all the students where the strings in the student arrays are sorted alphabetically. 
-# 6 
+# 6 ** important Note that since hashes are unordered by nature, the order of the keys does not matter here, just the order of the student's names within each array.
 
 
 class School
