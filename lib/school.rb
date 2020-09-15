@@ -10,13 +10,13 @@ class School
     @roster
   end
 
-  def add_student(name, grade)
+  def add_student(name, grade) #able to add student 
     @roster[grade] ||= []
     @roster[grade] << name
   end
 
   def grade(grade)
-    @roster[grade]
+    @roster[grade] #send and retrieve 
   end
 
   def sort
