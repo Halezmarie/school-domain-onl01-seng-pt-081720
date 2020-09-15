@@ -19,12 +19,6 @@ class School
     @name = name
     @roster = {} #needs empty roster
   end
-
-
-    def sort
-    @roster.each do |key, value|
-      value.sort!
-    end
     
   def roster
     @roster
@@ -35,6 +29,12 @@ class School
     @roster[grade] ||= []
     @roster[grade] << name
   end
+  
+  
+    def sort
+    @roster.each do |key, value|
+      value.sort!
+    end
 
   def grade(grade)
     @roster[grade] #send and retrieve 
