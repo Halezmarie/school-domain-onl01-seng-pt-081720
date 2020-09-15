@@ -20,14 +20,16 @@ class School
     @roster = {} #needs empty roster
   end
 
-  def roster
-    @roster
-  end
-  
+
     def sort
     @roster.each do |key, value|
       value.sort!
     end
+    
+  def roster
+    @roster
+  end
+  
 
   def add_student(name, grade) #able to add student 
     @roster[grade] ||= []
