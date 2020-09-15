@@ -6,7 +6,7 @@
 # school.roster
 # # => {}
 
-# 3
+# 3 
 
 
 class School
